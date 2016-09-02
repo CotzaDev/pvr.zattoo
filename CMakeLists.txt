@@ -10,7 +10,7 @@ enable_language(CXX)
 find_package(Kodi REQUIRED)
 find_package(kodiplatform REQUIRED)
 find_package(p8-platform REQUIRED)
-find_package(Yajl REQUIRED)
+find_package(YAJL REQUIRED)
 
 include_directories(${kodiplatform_INCLUDE_DIRS}
                     ${p8-platform_INCLUDE_DIRS}
